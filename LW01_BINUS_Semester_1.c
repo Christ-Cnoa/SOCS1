@@ -30,10 +30,10 @@ int main() {
     getchar();
     scanf("%c %d", &Class, &Num);
     getchar();
-    printf("Id    : %s\n", Id);
-    printf("Name  : %s\n", Name);
-    printf("Class : %c\n", Class);
-    printf("Num   : %d\n", Num);
+    printf("Id\t: %s\n", Id);
+    printf("Name\t: %s\n", Name);
+    printf("Class\t: %c\n", Class);
+    printf("Num\t: %d\n", Num);
 
   return 0;
 }
