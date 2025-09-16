@@ -7,33 +7,42 @@ int main() {
 // B Task. Congratulate user
   // char name[120];
   // scanf("%[^\n]", name);
+  // getchar();
   // printf("Congrats \"%s\" for joining the CS department at BINUS.\n", name);
 
   // C Task. Greetings
   // char name[120];
   // scanf("%[^\n]", name);
+  // getchar();
   // printf("Halo %s\n", name);
 
   // D Task. Hexadecimal conversion
   // int num;
   // scanf("%d", &num);
+  // getchar();
   // printf("%x\n", num);
 
   // E Task. Registration
-    char Id[15];
-    char Name[120];
-    char Class;
-    int Num;
-    scanf("%s", &Id);
+    // char Id[15];
+    // char Name[120];
+    // char Class;
+    // int Num;
+    // scanf("%s", &Id);
+    // getchar();
+    // scanf("%[^\n]", Name);
+    // getchar();
+    // scanf("%c %d", &Class, &Num);
+    // getchar();
+    // printf("Id    : %s\n", Id);
+    // printf("Name  : %s\n", Name);
+    // printf("Class : %c\n", Class);
+    // printf("Num   : %d\n", Num);
+
+    // F Task. Octal conversion
+    int num;
+    scanf("%d", &num);
     getchar();
-    scanf("%[^\n]", Name);
-    getchar();
-    scanf("%c %d", &Class, &Num);
-    getchar();
-    printf("Id\t: %s\n", Id);
-    printf("Name\t: %s\n", Name);
-    printf("Class\t: %c\n", Class);
-    printf("Num\t: %d\n", Num);
+    printf("%o\n", num);
 
   return 0;
 }
