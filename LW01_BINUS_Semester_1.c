@@ -45,10 +45,20 @@ int main() {
     // printf("%o\n", num);
 
     // G Task Reverse
-    char satu[120], dua[120], tiga[120];
-    scanf("%s %s %s", satu, dua, tiga);
+    // char satu[120], dua[120], tiga[120];
+    // scanf("%s %s %s", satu, dua, tiga);
+    // getchar();
+    // printf("%s %s %s\n", tiga, dua, satu);
+
+    // H Task print the code
+    char input [120];
+    scanf("%[^\n]", input);
     getchar();
-    printf("%s %s %s\n", tiga, dua, satu);
+    printf("#iclude <stdio.h>\n");
+    printf("int main()\n{\n");
+    printf("    printf(\"%%s\\n\",\"%s\")\n", input);
+    printf("    return 0;\n");
+    printf("}\n");
 
   return 0;
 }
