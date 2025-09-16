@@ -54,9 +54,9 @@ int main() {
     char input [120];
     scanf("%[^\n]", input);
     getchar();
-    printf("#iclude <stdio.h>\n");
+    printf("#include <stdio.h>\n");
     printf("int main()\n{\n");
-    printf("    printf(\"%%s\\n\",\"%s\")\n", input);
+    printf("    printf(\"%%s\\n\",\"%s\");\n", input);
     printf("    return 0;\n");
     printf("}\n");
 
