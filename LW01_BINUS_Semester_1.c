@@ -5,9 +5,14 @@ int main() {
 //  printf("Hello World!\n");
 
 // B Task. Congratulate user
+  // char name[120];
+  // scanf("%[^\n]", name);
+  // printf("Congrats \"%s\" for joining the CS department at BINUS.\n", name);
+
+  // C Task. Greetings
   char name[120];
   scanf("%[^\n]", name);
-  printf("Congrats \"%s\" for joining the CS department at BINUS.\n", name);
+  printf("Halo %s\n", name);
 
   return 0;
 }
