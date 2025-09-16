@@ -39,10 +39,16 @@ int main() {
     // printf("Num   : %d\n", Num);
 
     // F Task. Octal conversion
-    int num;
-    scanf("%d", &num);
+    // int num;
+    // scanf("%d", &num);
+    // getchar();
+    // printf("%o\n", num);
+
+    // G Task Reverse
+    char satu[120], dua[120], tiga[120];
+    scanf("%s %s %s", satu, dua, tiga);
     getchar();
-    printf("%o\n", num);
+    printf("%s %s %s", tiga, dua, satu);
 
   return 0;
 }
