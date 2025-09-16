@@ -48,7 +48,7 @@ int main() {
     char satu[120], dua[120], tiga[120];
     scanf("%s %s %s", satu, dua, tiga);
     getchar();
-    printf("%s %s %s", tiga, dua, satu);
+    printf("%s %s %s\n", tiga, dua, satu);
 
   return 0;
 }
