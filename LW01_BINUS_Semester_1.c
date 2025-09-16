@@ -15,9 +15,25 @@ int main() {
   // printf("Halo %s\n", name);
 
   // D Task. Hexadecimal conversion
-  int num;
-  scanf("%d", &num);
-  printf("%x\n", num);
+  // int num;
+  // scanf("%d", &num);
+  // printf("%x\n", num);
+
+  // E Task. Registration
+    char Id[15];
+    char Name[120];
+    char Class;
+    int Num;
+    scanf("%s", &Id);
+    getchar();
+    scanf("%[^\n]", Name);
+    getchar();
+    scanf("%c %d", &Class, &Num);
+    getchar();
+    printf("Id    : %s\n", Id);
+    printf("Name  : %s\n", Name);
+    printf("Class : %c\n", Class);
+    printf("Num   : %d\n", Num);
 
   return 0;
 }
