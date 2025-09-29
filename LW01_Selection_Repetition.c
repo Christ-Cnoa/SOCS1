@@ -10,7 +10,7 @@ int main(){
     if (x==y && y==k) {
       printf ("1\n");
       break;
-      else if (x>y) {
+    } else if (x>y) {
         printf ("-1\n");
         break;
     }
